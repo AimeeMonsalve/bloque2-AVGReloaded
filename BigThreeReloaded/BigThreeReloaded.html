@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ChanllengeP2 BigThreeReloaded</title>
+    <script src="big.js"></script>
+</head>
+<body>
+    <script>
+        /*[BigThreeReloaded] Confeccionar una función a la cual le envíe tres enteros y
+retorne el mayor de ellos.*/
+let numero =[];
+let nu=0;
+ for (i=0; i <3; i++){
+    nu= parseInt(prompt(`Ingresar número ${i + 1}`));
+    numero.push(nu);
+ };
+     let mayor = may(numero);
+     console.log(mayor);
+  document.write(`El número mayor ingresado es: ${mayor}`);
+    </script>
+</body>
+</html>
